@@ -1,21 +1,18 @@
 <html>
 <head>
   <script>
-  	function GetQueryString(name) {
-
-	   var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)","i");
-
-	   var r = window.location.search.substr(1).match(reg);
-
-	   if (r!=null) return (r[2]); return null;
-
-	}
-
-	alert(GetQueryString("code"));
-
+   function GetQueryString(name) {
+    var reg = new RegExp("(^|&)"+name+"=([^&]*)(&|$)","i");
+    console.log(reg);
+    var r = window.location.search;
+     console.log(r);
+    var m = r.substring(1,r.length).match(reg);
+    console.log(m);
+    if (m!=null) return (m[2]); return null;
+ }
+ alert(GetQueryString("code"));
   </script>
 </head>
 <body>
-  ...
 </body>
 </html>
