@@ -1,35 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-
 <plist version="1.0">
-  <dict>
-    <key>items</key>
-    <array>
-      <dict>
-        <key>assets</key>
-        <array>
-          <dict>
-            <key>kind</key>
-            <string>software-package</string>
-            <key>url</key>
-            <string>https://kuaikuaiyu.com/bibashi/1.0.5/2018-09-17_1537176889281.ipa</string>
-          </dict>
-        </array>
-        <key>metadata</key>
-        <dict>
-          <key>bundle-identifier</key>
-          <string>com.WHYHJS.BBusApp</string>
-          <key>bundle-version</key>
-          <string>1.0.5</string>
-          <key>releaseNotes</key>
-          <string>1.0.5</string>
-          <key>kind</key>
-          <string>software</string>
-          <key>title</key>
-          <string>币巴士</string>
-        </dict>
-      </dict>
-    </array>
-  </dict>
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>assets</key>
+			<array>
+				<dict>
+					<key>kind</key>
+					<string>software-package</string>
+					<key>url</key>
+					<string>https://kuaikuaiyu.com/bibashi/1.0.5/2018-09-17_1537176889281.ipa</string>
+				</dict>
+			</array>
+			<key>metadata</key>
+			<dict>
+				<key>bundle-identifier</key>
+				<string>com.simpleInteraction.BeeStore</string>
+				<key>bundle-version</key>
+				<string>2.3</string>
+				<key>releaseNotes</key>
+				<string>2.3</string>
+				<key>kind</key>
+				<string>software</string>
+				<key>title</key>
+				<string>BeeStore</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
 </plist>
-
